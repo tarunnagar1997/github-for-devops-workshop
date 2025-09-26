@@ -1,0 +1,552 @@
+git init - to initialise version control 
+git status - to show status of files
+git add <file> || git add . --> to stage all teh file present in directory 
+git commit -m "message"
+git restore <file>
+git rm --cached <file>
+
+
+Linux -commands df -kh | awk 'NF == 1'df -kh | awk 'NF == 5'df -khdu -shdu -hdf -hdf -h | awk '$5+0 > 80 { print }df -h | awk '$5+0 > 80 { print }'df -h | awk '$3 > 80' >> tee.txtcat tee.txt vi test.sh df -h | awk 'print $2' df -h  lsblklsblk | head -n lsblk | head -10 lsblk | head 10 lsblk | tail -10 lsblk | tail -10 | awk 'NF == 10'lsblk | tail -10 | awk 'NR == 10'lsblk | tail -10 | awk 'NR == 10' | awk 'print {$4}'lsblk | tail -10 | awk 'NR == 10' | awk 'print $4'df -khdf -kh | grep "/"df -kh | grep "/dev/nvme0n1p6"df -khdu -khclearlsdf / | grep / | awk '{print $5}' | tr -d '%'du -khdu df -hdf -khdf -hdu -khsed -n '5p' tee.txt | awk '{print $5}'vi test.sh df -h | awk '$6 == "/" {gsub(/%/, "", $5); print $5}'df -hhistorydu -shdf -h | awk '$6 == "/" {gsub(/%/, "", $5); print $5}'df -hdf  -h | awk '$5'df  -h | awk '$6'df  -h | awk 'print $6'echo "df  -h | awk '$6'"echo $"df  -h | awk '$6'"echo $(df  -h | awk '$6')lsnlk -flsblk -nlsblk -n | grep /rootlsblkdf -khdf -kh | awk $1df -h | sed -n '3p' df -h | sed -n '3p' | awk 'print $5'df -h | sed -n '3p' | awk '{print $5}'df -h | sed -n '3p' | awk '{print $5}' tr -d '%'df -h | sed -n '3p' | awk '{print $5}' | tr -d '%'a = echo $df -h | sed -n '3p' | awk '{print $5}' | tr -d '%'usage = echo $df -h | sed -n '3p' | awk '{print $5}' | tr -d '%'usage = $df -h | sed -n '3p' | awk '{print $5}' | tr -d '%'usage = $(df -h | sed -n '3p' | awk '{print $5}' | tr -d '%')vi test.sh chmod 777 test.sh ./test.sh vi test.sh ./test.sh vi test.sh ./test.sh vi test.sh ./test.sh vi test.sh ./test.sh vi test.sh ./test.sh ip aping 192.168.24.1ip aping 192.168.24.1ping 172.18.0.1ip asystemctl restart networksudo su ssh root@192.168.1.46ip aping 192.168.1.34ssh root@192.168.1.34ssh root@127.0.0.1ping 127.0.0.1cat /etc/resolv.conf vi /etc/hostssudo su ip aip a ip acat /etc/resolv.conf ssh root@mastersudo cat /etc/resolv.conf sudo vi /etc/resolv.conf ip aping 172.16.217.1ssh root@192.168.1.34ip assh root@mastercat /etc/hostnamecat /etc/hostssudo vi  /etc/hostsssh root@masterssh root@172.16.217.10ping 172.16.217.10curl 172.16.217.10curl 192.168.1.34ip aping 172.16.217.10ssh root@172.16.217.10root@masterssh root@asterssh root@masterping 10.0.0.1ip asudo root@10.0.0.11sudo root@10.0.0.10vi /etc/hostssudo vi /etc/hostssudo root@10.0.0.10sudo root@mastersudo root@10.0.0.10ssh root@192.168.1.34ip aip aping 10.0.0.10ping 10.0.0.10/8ssh root@10.0.0.10ssh root@masterssh roo@172.16.217.10ping 172.168.217.11ip aping 172.16.217.10ping 172.16.217.11ssh root@masterssh root@worker1sudo vi /etc/hostsssh root@worker1ssh root@192.168.1.35ssh root@192.168.1.34ssh root@192.168.1.35ssh root@172.16.1.10ssh root@172.16.217.10ssh root@172.16.217.11ip assh root@172.16.217.11ssh masterssh root@172.16.217.10sudo vi /etc/hostsssh root@172.16.217.10ip aping 172.16,217.10ping 172.16.217.10ping 172.16.217.11ping 172.16.217.12ping 172.16.217.13ping 192.168.1.34ip ip assh root@192.168.1.34ssh root@192.168.1.33ssh root@192.168.1.34ping masterping LBping worker1ping masterping ping LBip a df -kh topiostatvmstatlsblklscpu ping masterping worker1ping worker2lscd BashScripting/lscd ..lscd /home/tarun/BashScripting/lscd ..lscd Downloads/lscd bash_scripts_DPC/lscd scripts/lscd remote_websetup/ls./webdeploy.sh lscdlsrm -rf test.sh ls -lrthmkdir STUDY_MATERIALlsmv AWS STUDY_MATERIAL/mv gitrepos/ STUDY_MATERIAL/mv gitrepos STUDY_MATERIAL/ls -lrth ls -lrthvi test.shchmod u+x test.sh ./test.sh vi test.sh./test.sh vi test.sh./test.sh vi test.sh./test.sh vi test.sh./test.sh df -kg / | awk {'print $5'} df -kh / | awk {'print $5'} df -kh / | awk {'print $5'} | tail -n 1df -kh / | awk {'print $5'} | tail -n 1 | tr -d "%"vim test.sh ./test.sh vim test.sh sudo apt install mailutilsvi /etc/postfix/main.cflscd STUDY_MATERIAL/lsmkdir Learn_Ansiblecd Learn_Ansible/lssudo apt update && upgrade -y sudo apt install python3sudo apt-add-repository ppa:ansible/ansibleansible --versionsudo apt get update sudo apt-get update -ysudo apt install ansible -y ansible --versionvi sample_playbookvim sample_playbook cat sample_playbook cdlsvim demo.sh vim test.sh lsmod sudo su guitarfinetunelscd Downloads/lsls -lrth sudo dpkg -i google-chrome-stable_current_amd64.deb lscd ..lscd Desktop/;slsvi test.shlschmod u+x test.sh ls./test.sh vi test.sh ./test.sh lsip a ping 172.16.135.1ip aping 172.16.135.3lsclearlsvi test.sh ./test.sh kjdblls -lrth./test.sh lscd ..lscd BashScripting/lsls -lrth ./first_script.sh cat first_script.sh pwdvi first_script.sh sudo su sudos u sudo su sudo apt update $$ upgradesudo apt update && upgradeecho $0cat /etc/shellslscd BashScripting/lsrm -rf *.shlsmkdir myscriptscd ..lscd Desktop/lsmkdir myScriptslscd myScripts/lsvi 01_basic.shchmod 755 01_basic.sh ./01_basic.sh vi 02_comments.shchmod 755 02_comments.sh ./02_comments.sh cat 02_comments.sh vi 03_variables.shchmod 755 03_variables.sh ./03_variables.sh vi 03_variables.sh ./03_variables.sh cat 03_variables.sh vi 03_variables.sh ./03_variables.sh vi 03_variables.sh ./03_variables.sh \vi 04_constant_variable.shchmod 755 04_constant_variable.sh ./04_constant_variable.sh vi 05_array.shchmod 755 05_array.sh ./05_array.sh cat 05_array.sh vi 05_array.sh./05_array.sh vi 05_array.sh./05_array.sh vi 05_array.sh ./05_array.sh vi 05_array.sh ./05_array.sh vi 05_array.sh ./05_array.sh vi 05_array.sh ./05_array.sh sudo su sudo apt install git git --versionsudo apt install git sudo apt install google meet iostattop -bn1top -bn1 | grep Cpu(s)top -bn1 | grep "Cpu(s)"top -bn1 | grep "Cpu(s)" | awk '{print $8}'toptop -bn1 | grep "Cpu(s)" | awk '{print $0}'top -bn1 | grep "Cpu(s)" | awk '{print $1}'top -bn1 | grep "Cpu(s)" | awk '{print $2}'top -bn1 | grep "Cpu(s)" | awk '{print $3}'top -bn1 | grep "Cpu(s)" | awk '{print $4}'top -bn1 | grep "Cpu(s)" | awk '{print $4}' | cut -d'.'top -bn1 | grep "Cpu(s)" | awk '{print $4}' | cut -d'.' -f1top -bn1 | grep "Cpu(s)" | awk '{print $4}' top -bn1 | grep "Cpu(s)" | awk '{print $4}' | cut -d'.' -f1top -bn1 | grep "Cpu(s)" | awk '{print $4}' top -bn1 | grep "Cpu(s)" | awk '{print $8}' tophtopls -lrth df -kh du -shtopuptimefree -hip acat /etc/fstabgit --versiongit config --global user.name "Tarun Nagar"git config --global user.name "TarunNagar"git config --global --get-all user.namecat ~/.config/cat ~/.gitconfig/lsls -lacd .ls -lacat ~/.gitconfigvi ~/.gitconfiggit config --global user.name "Tarun Nagar"git config --global user.email "yesiamtarun01@gmail.com"git config --listgit init ls -lagit statusgit commit -m "First v1 of index.html"git statusgit branch
+git log 
+whoami
+hostname
+cat /etc/hosts
+date
+uptime
+ls -lrth 
+nano Anaconda3-2024.10-1-Linux-x86_64.sh 
+watch uptime
+uptime | awk '{print $8}'
+uptime | awk '{print $8}' | cut -c1
+uptime | awk '{print $8}' | cut -c1-3
+top
+top | head -3
+
+cat Anaconda3-2024.10-1-Linux-x86_64.sh 
+clear
+cat /etc/hosts | grep master
+grep master /etc/hosts
+egrep worker|master /etc/hosts
+egrep worker|master /etc/hosts
+egrep "worker|master" /etc/hosts
+touch file{1..2}
+ls
+nano file1 
+cat file
+cat file1
+cp file1 file3
+cat file3
+nano file3 
+cat file3
+cmp file1 file3
+diff -u file1 file3
+cd
+ls
+cd Desktop/
+ls
+cd ..
+find ./ -name test.sh
+find ./ -name *.sh
+find ./ -name *.txt
+find ./ -name *.sh
+find ./ -name *sh
+find ./ -name *.s
+updatedb
+locate test.sh
+ls
+locate ./ test.sh
+cd /home/tarun/Desktop/
+locate ./ test.sh
+ls
+locate test.sh
+touch paul.csv
+locte paul.csv
+locate paul.csv
+updatedb
+locate paul.csv
+ls
+locate paul.csv
+sudo updatedb
+locate paul.csv
+locate test.sh
+clear
+which java
+which python 
+which bash 
+which ls
+cal 
+cd
+sudo apt install cal 
+cal 
+sudo apt install ncal 
+cal
+cal 2025
+cal august 2025
+uptime
+alias l="ls -ltr"
+l
+alias -p 
+l
+gzip test.sh 
+ls
+gzip -d test.sh.gz 
+l
+gzip -k test.sh 
+l\
+l
+gzip -d test.sh.gz 
+l
+rm test.sh
+gzip -d test.sh.gz 
+l
+gzip -k test.sh 
+l
+rm test.sh
+l
+gzip -d test.sh.gz 
+l
+tar -cvf STUDY_MATERIAL/
+tar -czf STUDY_MATERIAL/
+tar -cvf STUDY_MATERIAL.tar.gz STUDY_MATERIAL/
+ls
+tar -xvf STUDY_MATERIAL.tar.gz 
+l
+rm -rf STUDY_MATERIAL
+tar -xvf STUDY_MATERIAL.tar.gz 
+l
+cd STUDY_MATERIAL/
+ls
+cd ..
+l
+curl https://numberapi.com/random
+apt install nginx
+sudo apt install nginx
+systemctl status nginx
+ip a
+sudo apt remove nginx 
+sudo apt install nginx
+rpm -qa | grep nginx
+sudo apt list install
+sudo apt list installed
+apt list installed
+rpm -qa | grep java
+rpm -qa | grep python
+rpm -qa | grep nginx
+systemctl status nginx
+apt list --installed | grep nginx
+apt list --installed | grep java
+apt search java
+clear
+apt search nginx
+clear
+apt search 
+apt search available
+apt search available | grep java
+apt search available | grep jdk
+apt search available | grep python
+ip a
+sudo su 
+su -
+sudo su 
+su -
+sudo su
+sudo su 
+su
+sudo apt install anydesk
+sudo apt search anydesk
+sudo apt install anydesk
+which anydesk
+systemctl status anydesk
+anydesk
+sudo apt remove anydesk
+du
+dls -lrth
+ls -lrth
+du vmware/
+du -h vmware/
+df -kh
+df
+df -h
+df -kh
+df -th
+df -h
+lsblk
+ps -ef
+ps -ef | grep java
+sudo su 
+su root
+ip a
+l
+ls -lrth
+alias l='ls -lrth'
+source ~/.bashrc 
+node -v
+sudo apt update node
+sudo apt update nodejs
+sudo apt install nodejs:v20
+sudo npm install n stable -g
+node v
+npx creat-react-app testapp
+npx create-react-app testapp
+cd testapp
+npm start 
+npm install 
+npm start 
+docker build .
+systemctl status docker
+docker build .
+echo $DOCKER_HOST
+docker info
+sudo usermod -aG docker $USER
+docker build .
+sudo usermod -aG docker $tarun
+sudo docker build .
+docker image ls
+sudo docker image ls
+sudo docker run 84477062129c
+l
+ls -lrth 
+ls -la
+sudo apt-get update 
+sudo apt-get upgrade
+ls
+cd Downloads/
+ls
+sudo apt-get install docker-desktop 
+which docker
+cd
+sudo su 
+docker version
+which docker
+sudo su
+sudo su 
+cd testapp/
+sudo docker ps
+sudo docker stop sharp_pascal
+sudo docker ps
+pwd
+telnet --help
+telnet man
+man
+telnet --man
+man
+man telnet
+pgrep docker
+docker -v
+docker ps 
+sudo docker ps 
+cat /etc/group
+usermod -aG docker tarun
+sudo usermod -aG docker tarun
+docker ps 
+ls
+cd Demo_docker_pycharm/
+ls
+python Add_two_nums.py 
+python3 Add_two_nums.py 
+docker build .
+sudo docker build -t myapp .
+ls
+sudo docker images
+docker run myapp
+sudo docker run myapp
+docker run -it myapp
+sudo docker run -it myapp
+sudo docker images
+sudo docker rmi mysql
+docker images
+sudo docker images
+sudo docker images ls
+sudo docker image ls
+sudo docker images ls
+sudo docker image ls
+docker network
+newgrp docker
+sudo usermod -aG docker tarun 
+docker ps
+docker ps -a
+du
+ls
+du /home/tarun/Videos/
+du -h /home/tarun/Videos/
+df -h /home/tarun/Videos/
+sudo docker images
+sudo su 
+ls
+cd Demo_docker_pycharm/
+ls
+docker build -t Demo_app .
+sudo docker build -t Demo_app .
+sudo docker build -t demo_app .
+sudo docker images
+sudo su 
+python
+python3
+ls
+mkdir python_mysql
+cd python_mysql/
+pip
+python -m pip install --upgrade pip 
+python3 -m pip install --upgrade pip 
+echo "Hello World"
+vi abc.txt
+ls
+vi abc.txt
+ls
+rm -rf abc.txt 
+vi abc.txt
+ls
+rm -rf abc.txt
+ls
+cd ..
+ls
+gefacl demo.sh 
+getfacl demo.sh 
+ls
+cd BashScripting/
+ls
+ls -li
+cd
+locate triangle.sh
+updatedb
+sudo su 
+ls -lrth
+$?
+?
+listusb
+usbls
+lsub
+lsusb
+ls
+ls | wc -l
+ls -lrth
+ip a
+ping 192.168.16.116
+ssh root@192.168.16.116
+sudo su 
+exit 
+ip a
+sudo su 
+exit
+exit 
+ssh root@192.168.16.117
+ping 192.168.16.116
+ssh root@192.168.16.116
+ping 192.168.16.116
+ssh root@192.168.16.116
+docker p s
+docker ps 
+sudo docker ps 
+sudo usermod -aG docker $USER
+newgrp docker
+docker ps 
+sudo usermod -aG docker $USER
+docker ps
+sudo su 
+sudo su 
+which ls
+which sl 
+ls -la
+sudo su 
+l s-ld
+ls -ld
+ls -l
+sudo su 
+sudo su 
+cd Desktop/PROJECTS_DOCKER/
+cd django-notes-app/
+cat Dockerfile 
+ls
+vim docker-compose.yml 
+sudo su
+top
+ping 8.8.8.8
+ls
+du -sh Pictures/
+du -h Pictures/
+du -th Pictures/
+du -sh Pictures/
+df -kh
+df -kh /
+top bn -1
+top | bn -1
+top bn-1
+top
+top | sed -n '3p'
+top | awk '{print $2}'
+df
+df -kh
+df -th
+df -sh
+df --help
+df -i
+df -ih
+ping 8.8.8.8
+top | head -n 5
+vmstat
+vmstat -h
+vmstat -m
+sudo vmstat -m
+ping 8.8.8.8
+cat /etc/passwd
+ping 8.8.8.8
+ls
+ls -lh
+ls -lh vmware
+ls -lh Terraform
+ls -h Terraform
+ls -l Terraform
+du -h Terraform
+du -sh Terraform
+ping 8.8.8.8
+uname
+uname -a
+top
+lscpu  
+top -bn 1
+top -bn 1 | sed -n '3p'
+top -bn 1 | sed -n '3p' | awk '{print $7}'
+top -bn 1 | sed -n '3p' | awk '{print $8}'
+top -bn 1 | sed -n '3p' | awk '{print $8}' | sed 's/.//g'
+top -bn 1 | sed -n '3p' | awk '{print $8}' | sed 's/8//g'
+who
+whoami
+who 
+top -bn 1 | sed -n '3p' | awk '{print $8}' | cut -d. f1
+top -bn 1 | sed -n '3p' | awk '{print $8}' | cut -d. -f1
+top -bn 1
+which java
+java --version
+cat /usr/bin/java
+id
+cat /etc/groups
+cat /etc/group
+cat /etc/group | grep docker
+docker ps 
+sudo su 
+ip a
+ping 8.8.8.8
+netstat
+tail -f wget-log 
+netstat
+ping google.com
+netstat
+ifconfig
+traceroute googel.com
+traceroute youtube.com
+tracepath youtube.com
+mtr youtube.com
+nslookup youtube.com
+telnet youtube.com 80 
+telnet youtube.com 443
+nslookup youtube.com
+nslookup youtube.com 80
+telnet youtube.com 80
+nslookup google.com
+iwconfig
+ss
+dig trainwithshubham.com
+clear 
+whois wakie.com
+sudo apt-get install whois
+whois wakie.com
+arp
+ifplugstatus
+sudo apt install ifplugd
+ifplugstatus
+systemctl status docker
+systemctl restart docker
+systemctl status docker
+ifplugstatus
+docker ps 
+sudo docker ps 
+curl -X GET https://dummyjson.com/users
+curl -X GET https://dummyjson.com/users | jq
+wget https://www.youtube.com/watch?v=e01GGTKmtpc&t=22s
+ls
+cat wget-log 
+rm -rf wget-log 
+wget https://sswww.youtube.com/watch?v=e01GGTKmtpc&t=22s
+cat wget-log 
+rm -r wget-log 
+iptables --list-rule
+sudo iptables --list-rule
+watch top
+nmap -v wakie.com
+route
+ls
+cd Desktop/
+ls
+touch demo_file.txt
+vim demo_file.txt 
+awk '/INFO/ {print $1,$2}' demo_file.txt 
+awk '/INFO/ {print $1,$2,$3,$4}' demo_file.txt 
+awk '/INFO/ {count++} END {count}' demo_file.txt 
+awk '/INFO/ {count++} END {print count}' demo_file.txt 
+awk '/INFO/ {count++} END {print "The count of INFO is: count}' demo_file.txt 
+awk '/INFO/ {count++} END {print "The count of INFO is:", count}' demo_file.txt 
+awk '{print $2,$3,$4}' demo_file.txt 
+awk '$2 >= "08:51:01" && $2 <= ""08:52:50" {print $2,$3,$4}' demo_file.txt 
+awk '$2 >= "08:51:01" && $2 <= "08:52:50" {print $2,$3,$4}' demo_file.txt 
+awk '$2 >= "08:51:01" && $2 <= "08:52:00" {print $2,$3,$4}' demo_file.txt 
+sed '1,10 s/INFO/LOG/g; 1,10; 11q' demo_file.txt 
+sed '1,10 s/INFO/LOG/g; 1,10p; 11q' demo_file.txt 
+ps aux | grep ubuntu 
+sudo su 
+lsblk
+lvs
+sudo su 
+/bin/python3 /home/tarun/Desktop/github-for-devops-workshop/testing.py
+python testing.py 
+clear 
+ls
+python3 --version
+python testing.py
+python3 testing.py
+ls -lrth
+chmod 770 testing.py\  
+ls -lrth
+python3 testing.py
+mv testing.py\  testing.py
+python3 testing.py 
+python3 testing.py
+python testing.py
+sudo apt install python-is-python3
+python testing.py 
+ls -l
+rm testing.py 
+ls
+git init 
+ls -la
+git config --list 
+git status
+git add testing.py 
+git status
+git rm --cached testing.py 
+git status 
+git add .
+git status 
+git commit -m "testing files"
+git status 
+rm testing.py 
+ls 
+clear 
+git status 
+git restore testing.py
+git status 
+git status
+git add git-commands.txt 
+git status 
+git commit -m "git commands"
+git status 
+git logs
+git log
+git config --list 
+git remote add origin https://github.com/tarunnagar1997/github-for-devops-workshop.git
+git remote -v
+git status 
+git push origin master 
+git status
+git log
+git remote -v 
+git status
