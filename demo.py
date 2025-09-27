@@ -1,4 +1,6 @@
 """This module contains demo functions."""
+
+
 def my_function():
     """This function returns the value 3."""
     a = 3
