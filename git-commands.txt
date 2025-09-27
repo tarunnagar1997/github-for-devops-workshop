@@ -388,7 +388,6 @@ vmstat -h
 vmstat -m
 sudo vmstat -m
 ping 8.8.8.8
-cat /etc/passwd
 ping 8.8.8.8
 ls
 ls -lh
